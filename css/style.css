@@ -120,6 +120,7 @@ body {
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   margin: 10px 30px;
   color: #ffffff;
+  list-style-type: none;
   text-align: center;
   position: relative;
 }
@@ -127,6 +128,7 @@ body {
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link::before {
   content: "";
   position: absolute;
+  list-style-type: none;
   top: 50%;
   left: -2px;
   -webkit-transform: translate(-50%, -50%);
